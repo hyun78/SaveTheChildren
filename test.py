@@ -48,18 +48,7 @@ for e in lst:
 
 print(prop)
 result = list(filter(lambda a: not a in prop, result))
+print("!!!!!!!!!!!!!!!")
 print(result)
-'''
-print(lst)
-print("!!!!!!!!!!!!!")
-print(e)
-
-for e in lst:
-    for ee in e:
-        if(ee in prop):
-            lst.remove(ee)
-
-print(lst)
-'''
 
     
