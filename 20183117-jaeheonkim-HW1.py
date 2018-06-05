@@ -1,3 +1,4 @@
+#-*- coding: utf-8 -*-
 import sklearn
 from sklearn.datasets import load_files
 from sklearn.feature_extraction.text import CountVectorizer
@@ -52,7 +53,7 @@ def main():
         train_dir = m_dir
     global m_train, m_vec, tfidf_trans
     m_train = load_files(train_dir)
-    X,x,Y,y = train_test_split(m_train.data,m_train.target,test_size = 0.1)
+    X,x,Y,y = train_test_split(m_train.data,m_train.target,test_size = 0.2)
     #X,Y ==> train
     #x,y ==> test
 
